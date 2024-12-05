@@ -33,7 +33,7 @@ public class SeriesCalculator {
         }
 
         if (termCount[0] >= maxIterations) {
-            throw new IllegalArgumentException("Series did not converge within the maximum iterations.");
+            throw new IllegalArgumentException("Series did not match the maximum iterations.");
         }
 
         return sum;
